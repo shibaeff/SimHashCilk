@@ -1,0 +1,24 @@
+Cilk Parallel Region(s) Statistics - Elapsed time: 0.172 seconds
+1) Parallelism Profile
+   Work :                                        85,021 instructions
+   Span :                                        3,772 instructions
+   Burdened span :                               168,772 instructions
+   Parallelism :                                 22.54
+   Burdened parallelism :                        0.50
+   Number of spawns/syncs:                       64
+   Average instructions / strand :               440
+   Strands along span :                          7
+   Average instructions / strand on span :       538
+   Total number of atomic instructions :         263
+   Frame count :                                 128
+   Entries to parallel region :                  1
+
+2) Speedup Estimate
+     2 processors:       0.46 - 2.00
+     4 processors:       0.36 - 4.00
+     8 processors:       0.32 - 8.00
+    16 processors:       0.31 - 16.00
+    32 processors:       0.30 - 22.54
+    64 processors:       0.30 - 22.54
+   128 processors:       0.30 - 22.54
+   256 processors:       0.30 - 22.54
